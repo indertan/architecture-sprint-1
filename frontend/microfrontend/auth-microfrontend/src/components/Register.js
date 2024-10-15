@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import '../blocks/login/login.css';
+
 function Register ({ onRegister }){
   const [email, setEmail] = React.useState('');
   const [password, setPassword] = React.useState('');
